@@ -1,0 +1,95 @@
+/* Estilos específicos para el dashboard */
+
+/* Contenedor principal */
+.container {
+    margin-top: 50px;
+}
+
+/* Barra de navegación */
+.main-header {
+    background: rgb(0, 164, 172);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 50px;
+}
+
+.logo {
+    max-height: 40px;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+}
+
+.navigation li {
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.row-cols-md-3 {
+    justify-content: center;
+}
+
+/* Update the styles for card alignment and spacing */
+.row-cols-md-3 .col {
+    margin-bottom: 15px; /* Adjust the margin to control the space between cards */
+}
+
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 18rem;
+    margin-bottom: 20px;
+    box-shadow: 0 0 40px rgba(0, 128, 122, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* Footer */
+.footer {
+    border: 1px solid #343a40; /* Color del contorno */
+    border-radius: 8px; /* Borde redondeado */
+    box-shadow: 0 0 90px rgba(0, 128, 122, 0.5);
+}
+
+/* Botones */
+.btn {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-success {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.btn-success:hover {
+    background-color: rgb(24, 164, 203);
+}
