@@ -17,7 +17,7 @@ export class LoginComponent {
     const password = (document.getElementById("password") as HTMLInputElement)?.value || '';
   
     // Validaciones adicionales
-    if (nombre === 'edwar' && password === 'edwar123') {
+    if (nombre === 'admin' && password === 'admin123') {
       this.mostrarMensajeExito('¡Inicio de sesión exitoso como administrador!');
       this.router.navigateByUrl('/admin');
       return;
